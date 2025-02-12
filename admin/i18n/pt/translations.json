@@ -1,0 +1,10 @@
+{
+	"bambucam adapter settings": "Configurações do adaptador para bambucam",
+	"instance_name": "Instance name",
+	"printer_ipaddr": "IP-Address of the printer",
+	"printer_access": "Access-Code of the printer",
+	"printer_port": "Camera port of the printer",
+	"res_width": "Width of the stream",
+	"res_height": "Height of the stream",
+	"webserver_port": "Webserver port"
+}

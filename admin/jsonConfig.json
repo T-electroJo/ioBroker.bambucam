@@ -1,0 +1,41 @@
+{
+	"i18n": true,
+	"type": "panel",
+	"items": {
+		"instance_name": {
+			"type": "text",
+			"label": "Instance name",
+			"newLine": true
+		},
+		"printer_ipaddr": {
+			"type": "text",
+			"label": "IP-Address of the printer",
+			"newLine": true
+		},
+		"printer_access": {
+			"type": "text",
+			"label": "Access-Code of the printer",
+			"newLine": true
+		},
+		"printer_port": {
+			"type": "number",
+			"label": "Camera port of the printer",
+			"newLine": true
+		},
+		"res_width": {
+			"type": "number",
+			"label": "Width of the stream",
+			"newLine": true
+		},
+		"res_height": {
+			"type": "number",
+			"label": "Height of the stream",
+			"newLine": true
+		},
+		"webserver_port": {
+			"type": "number",
+			"label": "Webserver port",
+			"newLine": true
+		}
+	}
+}

@@ -1,0 +1,98 @@
+{
+	"common": {
+		"name": "bambucam",
+		"version": "0.0.1",
+		"news": {
+			"0.0.1": {
+				"en": "initial release",
+				"de": "Erstveröffentlichung",
+				"ru": "Начальная версия",
+				"pt": "lançamento inicial",
+				"nl": "Eerste uitgave",
+				"fr": "Première version",
+				"it": "Versione iniziale",
+				"es": "Versión inicial",
+				"pl": "Pierwsze wydanie",
+				"uk": "Початкова версія",
+				"zh-cn": "首次出版"
+			}
+		},
+		"titleLang": {
+			"en": "Bambulab X1 Camera",
+			"de": "Bambulab X1 Camera",
+			"ru": "Bambulab X1 Camera",
+			"pt": "Bambulab X1 Camera",
+			"nl": "Bambulab X1 Camera",
+			"fr": "Bambulab X1 Camera",
+			"it": "Bambulab X1 Camera",
+			"es": "Bambulab X1 Camera",
+			"pl": "Bambulab X1 Camera",
+			"uk": "Bambulab X1 Camera",
+			"zh-cn": "Bambulab X1 Camera"
+		},
+		"desc": {
+			"en": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"de": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"ru": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"pt": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"nl": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"fr": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"it": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"es": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"pl": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"uk": "Converts the Bambulab RTSPS-Stream to a webserver",
+			"zh-cn": "Converts the Bambulab RTSPS-Stream to a webserver"
+		},
+		"authors": [
+			"electroJo <electroJo@t-online.de>"
+		],
+		"keywords": [
+			"bambulab",
+			"rtsp",
+			"rtsps",
+			"webserver",
+			"vis"
+		],
+		"licenseInformation": {
+			"type": "free",
+			"license": "MIT"
+		},
+		"platform": "Javascript/Node.js",
+		"icon": "bambucam.png",
+		"enabled": true,
+		"extIcon": "https://raw.githubusercontent.com/T-electroJo/ioBroker.bambucam/main/admin/bambucam.png",
+		"readme": "https://github.com/T-electroJo/ioBroker.bambucam/blob/main/README.md",
+		"loglevel": "info",
+		"tier": 3,
+		"mode": "daemon",
+		"type": "communication",
+		"compact": true,
+		"connectionType": "local",
+		"dataSource": "poll",
+		"adminUI": {
+			"config": "json"
+		},
+		"supportCustoms": true,
+		"dependencies": [
+			{
+				"js-controller": ">=6.0.11"
+			}
+		],
+		"globalDependencies": [
+			{
+				"admin": "7.0.23"
+			}
+		]
+	},
+	"native": {
+		"instance_name": "",
+		"printer_ipaddr": "",
+		"printer_access": "",
+		"printer_port": "322",
+		"res_width": "1920",
+		"res_height": "1080",
+		"webserver_port": "8090"
+	},
+	"objects": [],
+	"instanceObjects": []
+}

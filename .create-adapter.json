@@ -1,0 +1,88 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "bambucam",
+	"title": "Bambulab X1 Camera",
+	"description": "Converts the Bambulab RTSPS-Stream to a webserver",
+	"keywords": [
+		"bambulab",
+		"rtsp",
+		"rtsps",
+		"webserver",
+		"vis"
+	],
+	"contributors": "",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [
+		"custom"
+	],
+	"type": "communication",
+	"startMode": "daemon",
+	"connectionType": "local",
+	"dataSource": "poll",
+	"connectionIndicator": "no",
+	"adapterSettings": [
+		{
+			"key": "instance_name",
+			"label": "Instance name",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "printer_ipaddr",
+			"label": "IP-Address of the printer",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "printer_access",
+			"label": "Access-Code of the printer",
+			"inputType": "text",
+			"defaultValue": ""
+		},
+		{
+			"key": "printer_port",
+			"label": "Camera port of the printer",
+			"inputType": "number",
+			"defaultValue": "322"
+		},
+		{
+			"key": "res_width",
+			"label": "Width of the stream",
+			"inputType": "number",
+			"defaultValue": "1920"
+		},
+		{
+			"key": "res_height",
+			"label": "Height of the stream",
+			"inputType": "number",
+			"defaultValue": "1080"
+		},
+		{
+			"key": "webserver_port",
+			"label": "Webserver port",
+			"inputType": "number",
+			"defaultValue": "8090"
+		}
+	],
+	"language": "JavaScript",
+	"nodeVersion": "20",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"tools": [
+		"ESLint",
+		"type checking"
+	],
+	"authorName": "electroJo",
+	"authorGithub": "T-electroJo",
+	"authorEmail": "electroJo@t-online.de",
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.6.5"
+}
